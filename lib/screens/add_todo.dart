@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:todo_app_using_provider/provider/save_task_provider.dart';
-import 'package:todo_app_using_provider/provider/task_provider.dart';
+import 'package:todo_app_using_provider/modal/task_modal.dart';
 
 class AddTodo extends StatelessWidget {
   AddTodo({super.key});
