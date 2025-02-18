@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'task_provider.dart';
+import '../modal/task_modal.dart';
 
 class SaveTask extends ChangeNotifier{
   List<Task> _tasks = [
-    // Task(title: 'learn flutter',isCompleted: false),
-    // Task(title: 'Drink Water',isCompleted: false),
+    Task(title: 'Reading',isCompleted: false),
+    Task(title: 'Drink Water',isCompleted: false),
   ];
   List<Task> get tasks => _tasks;
   void addTask(Task task){
